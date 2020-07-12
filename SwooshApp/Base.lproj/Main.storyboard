@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwooshApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="SwooshApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -86,10 +86,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.0809595202399"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="5PK-qo-Hul">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="wtP-wu-XYN" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="wtP-wu-XYN" customClass="LeagueVC" customModule="SwooshApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BMl-TI-vTe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -196,10 +196,10 @@
             </objects>
             <point key="canvasLocation" x="1004" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="XJL-lD-BEo">
             <objects>
-                <viewController id="EVS-Ps-elm" sceneMemberID="viewController">
+                <viewController id="EVS-Ps-elm" customClass="SkillVC" customModule="SwooshApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HVb-Il-T1C">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
