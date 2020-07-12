@@ -17,6 +17,7 @@
 		3795195324BBC3AB0088CCFD /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3795195224BBC3AB0088CCFD /* LeagueVC.swift */; };
 		3795195524BBC3D30088CCFD /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3795195424BBC3D30088CCFD /* SkillVC.swift */; };
 		3795195724BBCE700088CCFD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3795195624BBCE700088CCFD /* Player.swift */; };
+		3795195924BBD83D0088CCFD /* images in Resources */ = {isa = PBXBuildFile; fileRef = 3795195824BBD83D0088CCFD /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3795195224BBC3AB0088CCFD /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		3795195424BBC3D30088CCFD /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 		3795195624BBCE700088CCFD /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		3795195824BBD83D0088CCFD /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			children = (
 				370DD9BA24BA7091009EFB02 /* SwooshApp */,
 				370DD9B924BA7091009EFB02 /* Products */,
+				3795195824BBD83D0088CCFD /* images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3795195924BBD83D0088CCFD /* images in Resources */,
 				370DD9C824BA7092009EFB02 /* LaunchScreen.storyboard in Resources */,
 				370DD9C524BA7092009EFB02 /* Assets.xcassets in Resources */,
 				370DD9C324BA7091009EFB02 /* Main.storyboard in Resources */,
