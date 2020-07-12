@@ -160,6 +160,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="wtP-wu-XYN" eventType="touchUpInside" id="eEO-XN-qro"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8KY-Iu-QHO">
                                 <rect key="frame" x="16" y="26" width="29" height="24"/>
@@ -190,6 +193,9 @@
                         <viewLayoutGuide key="safeArea" id="5hK-na-zeQ"/>
                     </view>
                     <navigationItem key="navigationItem" id="2Uo-rN-hnd"/>
+                    <connections>
+                        <segue destination="EVS-Ps-elm" kind="show" identifier="skillVCSegue" id="fbR-Y7-Q1g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SS2-cV-9oq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="f8M-Gg-8bV" userLabel="Exit" sceneMemberID="exit"/>
@@ -199,7 +205,7 @@
         <!--SkillVC-->
         <scene sceneID="XJL-lD-BEo">
             <objects>
-                <viewController id="EVS-Ps-elm" customClass="SkillVC" customModule="SwooshApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="EVS-Ps-elm" customClass="SkillVC" customModule="SwooshApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HVb-Il-T1C">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -280,6 +286,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8oo-EJ-2m8"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Wou-HI-GrK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5kW-nx-TK2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
